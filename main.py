@@ -129,8 +129,8 @@ while len(states_guessed) < len(states_list):
         # Provide correct guess feedback in input box.
         box_title = f"{len(states_guessed)} / {len(states_list)} correct."
 
-    # Ask the user if they want to continue with the game or exit every 5 guesses.
-    if guess_attempts % 5 == 0:
+    # Ask the user if they want to continue with the game or exit every 10 guesses.
+    if guess_attempts % 10 == 0:
         # If user wants to end the game.
         if end_game():
             # Clear the screen and write label providing feedback on correct and missing states.

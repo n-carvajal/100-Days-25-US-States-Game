@@ -12,7 +12,7 @@ game that are unfinished.
 * Otherwise, the game asks the user if they want to continue with the previous game or start new one.
 * If the player chooses to start fresh, the data in `states_guessed.csv` and `missing_states.csv` will be deleted and the game will start from scratch.
 * If the player chooses to continue with the previous game instance then the game will continue from where it was previously closed.
-* Given the amount of states to guess, every 5 guesses the player is asked if the wish to continue or exit the game.
+* Given the amount of states to guess, every 10 guesses the player is asked if the wish to continue or exit the game.
 * Upon game exit, the `states_guessed.csv` and `missing_states.csv` files will be repopulated.
 
 In order to play the game run `main.py`
