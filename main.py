@@ -128,6 +128,7 @@ while len(states_guessed) < len(states_list):
         label.write(state, True, "center", ("Arial", 8, "normal"))
         # Provide correct guess feedback in input box.
         box_title = f"{len(states_guessed)} / {len(states_list)} correct."
+        box_text = "Guess a state: "
 
     # Ask the user if they want to continue with the game or exit every 10 guesses.
     if guess_attempts % 10 == 0:
