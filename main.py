@@ -60,7 +60,6 @@ screen.tracer(0)
 
 # Instantiate label object
 label = Label()
-print("Test")
 
 # Use pandas to read corresponding csv files.
 all_states_df = pd.read_csv("50_states.csv")
